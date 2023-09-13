@@ -45,9 +45,24 @@ li {
   }
 }
 .active {
-  color: red;
+  color: rgb(245, 119, 119);
 }
 
-footer, main {
-  padding: 50px 0;
+footer, main, header {
+  padding: 20px 0;
+  
+}
+footer, header {
+  background-color: #01143b;
+  color: white;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
 }
