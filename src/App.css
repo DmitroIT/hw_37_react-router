@@ -15,12 +15,6 @@ li {
   list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -45,7 +39,7 @@ li {
   }
 }
 .active {
-  color: rgb(245, 119, 119);
+  color: rgb(253, 115, 115);
 }
 
 footer, main, header {
